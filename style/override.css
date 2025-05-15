@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "snapp";
+    src: url("../fonts/Lalezar-Regular.ttf");
+}
+body{
+    font-family: "snapp";
+}
+.border-success{
+    border-color: #06c116 !important;
+}
+
+.border-pink{
+    border-color: #EE219A !important;
+}
+
+.nav-link.active ,.btn-success ,.bg-success {
+    background-color: #06c116 !important;
+}
+.nav-link.active ,.btn-pink ,.bg-pink {
+    background-color: #EE219A !important;
+    color : white;
+}
+.text-success{
+    color: #06c116 !important;
+}
+.text-pink{
+    color: #EE219A !important;
+}
+.btn-outline-success{
+    border-color: #06c116 !important;
+    color: #06c116 !important;
+}
+.btn-outline-pink{
+    border-color: #EE219A !important;
+    color: #EE219A !important;
+}
+.alert-success {
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+    --bs-alert-color: #FFFFFF;
+    --bs-alert-bg: #06c1165f !important;
+    --bs-alert-border-color: #06c1165f !important;
+    --bs-alert-link-color: #06c116 !important;
+}
+.alert-pink {
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+    --bs-alert-color: #FFFFFF;
+    --bs-alert-bg: #ee219966 !important;
+    --bs-alert-border-color: #ee219966 !important;
+    --bs-alert-link-color: #EE219A !important;
+}
+.text-bg-success {
+    color: #fff !important;
+    background-color: #06c1165f !important;
+}
+.text-bg-pink {
+    color: #fff !important;
+    background-color: #ee219966 !important;
+}
+.text-bg-primary {
+    color: #fff !important;
+    background-color: #0000ff5f  !important;
+}
+.p, .h5, .h3, .shadow{
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
